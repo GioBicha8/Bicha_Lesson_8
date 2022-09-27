@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #0020f4 0% 0% no-repeat padding-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+.header-flex,
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-li {
+  margin: 20px;
+}
+
+.header-flex {
+  justify-content: space-around;
+  /*margin-top: 5px;*/
+}
